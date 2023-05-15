@@ -3,9 +3,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.t246osslab.easybuggy</groupId>
-	<artifactId>easybuggy</artifactId>
-	<version>1-SNAPSHOT</version>
+	<groupId>com.wfs</groupId>
+	<artifactId>vtrade-core</artifactId>
+	<version>1.0</version>
 	<packaging>war</packaging>
 
 	<properties>
@@ -222,7 +222,7 @@
 				<executions>
 					<execution>
 						<id>startup-uber-start</id>
-						<phase>install</phase>
+						<phase>deploy</phase>
 						<goals>
 							<goal>exec</goal>
 						</goals>
